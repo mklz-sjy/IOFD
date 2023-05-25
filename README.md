@@ -1,9 +1,14 @@
 # IOFD
 Interaction-Oriented Feature Decomposition for Medical Image Lesion Detection
 
+# Prepare Dataset
+Create a folder named 'data' to store downloaded BrainTumor dataset(Google Drive: https://drive.google.com/drive/folders/1IxLLuMeBTkeOQHrTf8EGZ_I3rqmgkOWN?usp=share_link)
 
-Coming soon.
+`pip install -r requirements.txt`
 
+## train 
+`python brain_main_IOFD.py`
 
-# Dataset
-Google Drive: https://drive.google.com/drive/folders/1IxLLuMeBTkeOQHrTf8EGZ_I3rqmgkOWN?usp=share_link
+## test
+`python evaluate_brain_faster_rcnn.py`
+  
