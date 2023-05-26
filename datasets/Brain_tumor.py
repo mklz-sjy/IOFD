@@ -132,7 +132,7 @@ def make_Brain_Tumor_transforms(image_set):#参数相应调整
         ])
 
     #valid and test
-    if image_set == 'val' or image_set == 'test'or image_set == 'sample':
+    if image_set == 'val' or image_set == 'test':
         return T.Compose([
             normalize
         ])
